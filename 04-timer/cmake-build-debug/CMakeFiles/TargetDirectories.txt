@@ -1,0 +1,3 @@
+F:/clion_project/03-led/cmake-build-debug/CMakeFiles/04-timer.elf.dir
+F:/clion_project/03-led/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/clion_project/03-led/cmake-build-debug/CMakeFiles/rebuild_cache.dir

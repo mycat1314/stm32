@@ -1,0 +1,3 @@
+"F:\clion\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\01_demo.dir/objects.a
+F:\mingw8\mingw64\bin\ar.exe qc CMakeFiles\01_demo.dir/objects.a @CMakeFiles\01_demo.dir\objects1.rsp
+F:\mingw8\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\01_demo.dir/objects.a -Wl,--no-whole-archive -o 01_demo.exe -Wl,--out-implib,lib01_demo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\01_demo.dir\linkLibs.rsp

@@ -1,0 +1,417 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/clion/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/clion/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1131 (message)"
+      - "F:/clion/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCUDACompiler.cmake:75 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CUDA compiler is NVIDIA using "" matched "nvcc: NVIDIA \\(R\\) Cuda compiler driver":
+      nvcc: NVIDIA (R) Cuda compiler driver
+      Copyright (c) 2005-2022 NVIDIA Corporation
+      Built on Wed_Jun__8_16:59:34_Pacific_Daylight_Time_2022
+      Cuda compilation tools, release 11.7, V11.7.99
+      Build cuda_11.7.r11.7/compiler.31442593_0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/clion/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "F:/clion/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:53 (__determine_compiler_id_test)"
+      - "F:/clion/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCUDACompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" succeeded.
+      Compiler: E:/cuda-other/bin/nvcc.exe 
+      Build flags: 
+      Id flags: --keep;--keep-dir;tmp -v
+      
+      The output was:
+      0
+      
+      F:\\clion_project\\cuda-01\\cmake-build-debug\\CMakeFiles\\3.28.1\\CompilerIdCUDA>call "F:/vs-enterprise/VC/Tools/MSVC/14.16.27023/bin/HostX64/x64/../../../../../../../VC/Auxiliary/Build/vcvars64.bat" 
+      **********************************************************************
+      ** Visual Studio 2017 Developer Command Prompt v15.9.55
+      ** Copyright (c) 2017 Microsoft Corporation
+      **********************************************************************
+      [vcvarsall.bat] Environment initialized for: 'x64'
+      #$ F:/vs-enterprise/VC/Tools/MSVC/14.16.27023/bin/HostX64/x64/../../../../../../../VC/Auxiliary/Build/vcvars64.bat
+      #$ ALLUSERSPROFILE=C:\\ProgramData
+      #$ APPDATA=C:\\Users\\86156\\AppData\\Roaming
+      #$ asl.log=Destination=file
+      #$ BOOST_HOME=D:\\boots\\boost_1_81_0
+      #$ CLASSPATH=.;F:\\jdk8\\lib;F:\\jdk8\\lib\\tools.jar
+      #$ CLION_IDE=TRUE
+      #$ CMAKE=F:\\CMake
+      #$ CMAKE_COLOR_DIAGNOSTICS=ON
+      #$ CommandPromptType=Native
+      #$ CommonProgramFiles=C:\\Program Files\\Common Files
+      #$ CommonProgramFiles(x86)=C:\\Program Files (x86)\\Common Files
+      #$ CommonProgramW6432=C:\\Program Files\\Common Files
+      #$ COMPUTERNAME=DESKTOP-M7VM7A0
+      #$ ComSpec=C:\\WINDOWS\\system32\\cmd.exe
+      #$ CONDA_BAT=F:\\anaconda3\\condabin\\conda.bat
+      #$ CONDA_EXE=F:\\anaconda3\\Scripts\\conda.exe
+      #$ CONDA_PATH=F:\\Anaconda3
+      #$ CONDA_SCRIPT=F:\\Anaconda3\\Scripts
+      #$ CONDA_SHLVL=0
+      #$ CUDA_PATH=E:\\cuda-other
+      #$ CUDA_PATH_V11_7=E:\\cuda-other
+      #$ DevEnvDir=F:\\vs-enterprise\\Common7\\IDE\\
+      #$ DriverData=C:\\Windows\\System32\\Drivers\\DriverData
+      #$ ExtensionSdkDir=C:\\Program Files (x86)\\Microsoft SDKs\\Windows Kits\\10\\ExtensionSDKs
+      #$ FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+      #$ FPS_BROWSER_USER_PROFILE_STRING=Default
+      #$ Framework40Version=v4.0
+      #$ FrameworkDir=C:\\Windows\\Microsoft.NET\\Framework64\\
+      #$ FrameworkDir64=C:\\Windows\\Microsoft.NET\\Framework64\\
+      #$ FrameworkVersion=v4.0.30319
+      #$ FrameworkVersion64=v4.0.30319
+      #$ GIT_HOME=F:\\git\\Git
+      #$ HOMEDRIVE=C:
+      #$ HOMEPATH=\\Users\\86156
+      #$ IDEA_INITIAL_DIRECTORY=F:\\clion\\CLion 2024.1\\bin
+      #$ INCLUDE=F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\ATLMFC\\include;F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\include;C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\include\\um;D:\\Windows Kits\\10\\include\\10.0.17763.0\\ucrt;D:\\Windows Kits\\10\\include\\10.0.17763.0\\shared;D:\\Windows Kits\\10\\include\\10.0.17763.0\\um;D:\\Windows Kits\\10\\include\\10.0.17763.0\\winrt;D:\\Windows Kits\\10\\include\\10.0.17763.0\\cppwinrt;F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\ATLMFC\\include;F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\include;C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\include\\um;D:\\Windows Kits\\10\\include\\10.0.17763.0\\ucrt;D:\\Windows Kits\\10\\include\\10.0.17763.0\\shared;D:\\Windows Kits\\10\\include\\10.0.17763.0\\um;D:\\Windows Kits\\10\\include\\10.0.17763.0\\winrt;D:\\Windows Kits\\10\\include\\10.0.17763.0\\cppwinrt
+      #$ JAVA_HOME=F:\\jdk8
+      #$ JETBRAINS_IDE=TRUE
+      #$ LIB=F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\ATLMFC\\lib\\x64;F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\lib\\x64;C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\lib\\um\\x64;D:\\Windows Kits\\10\\lib\\10.0.17763.0\\ucrt\\x64;D:\\Windows Kits\\10\\lib\\10.0.17763.0\\um\\x64;F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\ATLMFC\\lib\\x64;F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\lib\\x64;C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\lib\\um\\x64;D:\\Windows Kits\\10\\lib\\10.0.17763.0\\ucrt\\x64;D:\\Windows Kits\\10\\lib\\10.0.17763.0\\um\\x64;
+      #$ LIBPATH=F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\ATLMFC\\lib\\x64;F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\lib\\x64;F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\lib\\x86\\store\\references;D:\\Windows Kits\\10\\UnionMetadata\\10.0.17763.0;D:\\Windows Kits\\10\\References\\10.0.17763.0;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\ATLMFC\\lib\\x64;F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\lib\\x64;F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\lib\\x86\\store\\references;D:\\Windows Kits\\10\\UnionMetadata\\10.0.17763.0;D:\\Windows Kits\\10\\References\\10.0.17763.0;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;
+      #$ LOCALAPPDATA=C:\\Users\\86156\\AppData\\Local
+      #$ LOGONSERVER=\\\\DESKTOP-M7VM7A0
+      #$ MOZ_PLUGIN_PATH=F:\\FOXIT READER\\plugins\\
+      #$ NETFXSDKDir=C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6.1\\
+      #$ NIEXTCCOMPILERSUPP=C:\\Program Files (x86)\\National Instruments\\Shared\\ExternalCompilerSupport\\C\\
+      #$ NUMBER_OF_PROCESSORS=16
+      #$ NVTOOLSEXT_PATH=C:\\Program Files\\NVIDIA Corporation\\NvToolsExt\\
+      #$ OneDrive=C:\\Users\\86156\\OneDrive
+      #$ OS=Windows_NT
+      #$ Path=F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64;F:\\vs-enterprise\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\3.1;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;F:\\vs-enterprise\\MSBuild\\15.0\\bin\\Roslyn;F:\\vs-enterprise\\Team Tools\\Performance Tools\\x64;F:\\vs-enterprise\\Team Tools\\Performance Tools;D:\\vs-compo\\Common\\VSPerfCollectionTools\\\\x64;D:\\vs-compo\\Common\\VSPerfCollectionTools\\;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6.1 Tools\\x64\\;D:\\Windows Kits\\10\\bin\\10.0.17763.0\\x64;D:\\Windows Kits\\10\\bin\\x64;F:\\vs-enterprise\\\\MSBuild\\15.0\\bin;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;F:\\vs-enterprise\\Common7\\IDE\\;F:\\vs-enterprise\\Common7\\Tools\\;F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64;F:\\vs-enterprise\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\3.1;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;F:\\vs-enterprise\\MSBuild\\15.0\\bin\\Roslyn;F:\\vs-enterprise\\Team Tools\\Performance Tools\\x64;F:\\vs-enterprise\\Team Tools\\Performance Tools;D:\\vs-compo\\Common\\VSPerfCollectionTools\\\\x64;D:\\vs-compo\\Common\\VSPerfCollectionTools\\;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6.1 Tools\\x64\\;D:\\Windows Kits\\10\\bin\\10.0.17763.0\\x64;D:\\Windows Kits\\10\\bin\\x64;F:\\vs-enterprise\\\\MSBuild\\15.0\\bin;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;F:\\vs-enterprise\\Common7\\IDE\\;F:\\vs-enterprise\\Common7\\Tools\\;F:\\anaconda3\\condabin;F:\\anaconda3\\pkgs\\openssl-1.1.1q-h2bbff1b_0\\Library\\bin;F:\\anaconda3\\Scripts;F:\\anaconda3\\Library\\bin;F:\\anaconda3;E:\\cuda-other\\bin;E:\\cuda-other\\libnvvp;C:\\Program Files\\PlasticSCM5\\server;C:\\Program Files\\PlasticSCM5\\client;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;F:\\jdk8\\bin;F:\\git\\Git\\bin;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;F:\\nodejs\\;F:\\cmake-3.4.3-win32-x86\\bin;D:\\boots\\boost_1_81_0;D:\\boots\\boost_1_81_0\\stage\\lib;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2022.2.1\\;E:\\cuda-other;E:\\cuda-other\\lib\\x64;E:\\cuda-other\\bin\\zlibwapi.dll;E:\\ffmpeg\\bin;F:\\mingw8\\mingw64\\bin;D:\\寰俊寮?鍙戣?呭伐鍏穃寰俊web寮?鍙戣?呭伐鍏穃dll;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;E:\\寰俊寮?鍙戣?呭伐鍏穃寰俊web寮?鍙戣?呭伐鍏穃dll;C:\\Program Files\\Cloudflare\\Cloudflare WARP\\;C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;F:\\arm-gcc\\10 2021.10\\bin;F:\\ARM\\bin;C:\\Users\\86156\\AppData\\Local\\Microsoft\\WindowsApps;F:\\vscode\\Microsoft VS Code\\bin;C:\\Users\\86156\\AppData\\Roaming\\npm;E:\\pycharm\\PyCharm 2022.2.1\\bin;;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja;D:\\微信开发者工具\\微信web开发者工具\\dll;E:\\微信开发者工具\\微信web开发者工具\\dll;F:\\clion\\CLion 2024.1\\bin\\ninja\\win\\x64;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja
+      #$ PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+      #$ Platform=x64
+      #$ PROCESSOR_ARCHITECTURE=AMD64
+      #$ PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
+      #$ PROCESSOR_LEVEL=6
+      #$ PROCESSOR_REVISION=a505
+      #$ ProgramData=C:\\ProgramData
+      #$ ProgramFiles=C:\\Program Files
+      #$ ProgramFiles(x86)=C:\\Program Files (x86)
+      #$ ProgramW6432=C:\\Program Files
+      #$ PROMPT=$P$G
+      #$ PSModulePath=C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\PowerShell\\Modules\\
+      #$ PUBLIC=C:\\Users\\Public
+      #$ PyCharm=E:\\pycharm\\PyCharm 2022.2.1\\bin;
+      #$ SESSIONNAME=Console
+      #$ STM32CubeMX_PATH=F:\\stm32cube
+      #$ SystemDrive=C:
+      #$ SystemRoot=C:\\WINDOWS
+      #$ UCRTVersion=10.0.17763.0
+      #$ UniversalCRTSdkDir=D:\\Windows Kits\\10\\
+      #$ USERDOMAIN=DESKTOP-M7VM7A0
+      #$ USERDOMAIN_ROAMINGPROFILE=DESKTOP-M7VM7A0
+      #$ USERNAME=86156
+      #$ USERPROFILE=C:\\Users\\86156
+      #$ VCIDEInstallDir=F:\\vs-enterprise\\Common7\\IDE\\VC\\
+      #$ VCINSTALLDIR=F:\\vs-enterprise\\VC\\
+      #$ VCToolsInstallDir=F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\
+      #$ VCToolsRedistDir=F:\\vs-enterprise\\VC\\Redist\\MSVC\\14.16.27012\\
+      #$ VCToolsVersion=14.16.27023
+      #$ VisualStudioVersion=15.0
+      #$ VS150COMNTOOLS=F:\\vs-enterprise\\Common7\\Tools\\
+      #$ VSCMD_ARG_app_plat=Desktop
+      #$ VSCMD_ARG_HOST_ARCH=x64
+      #$ VSCMD_ARG_TGT_ARCH=x64
+      #$ VSCMD_DEBUG=
+      #$ VSCMD_SKIP_SENDTELEMETRY=1
+      #$ VSCMD_VER=15.9.55
+      #$ vsconsoleoutput=1
+      #$ VSINSTALLDIR=F:\\vs-enterprise\\
+      #$ windir=C:\\WINDOWS
+      #$ WindowsLibPath=D:\\Windows Kits\\10\\UnionMetadata\\10.0.17763.0;D:\\Windows Kits\\10\\References\\10.0.17763.0
+      #$ WindowsSdkBinPath=D:\\Windows Kits\\10\\bin\\
+      #$ WindowsSdkDir=D:\\Windows Kits\\10\\
+      #$ WindowsSDKLibVersion=10.0.17763.0\\
+      #$ WindowsSdkVerBinPath=D:\\Windows Kits\\10\\bin\\10.0.17763.0\\
+      #$ WindowsSDKVersion=10.0.17763.0\\
+      #$ WindowsSDK_ExecutablePath_x64=C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6.1 Tools\\x64\\
+      #$ WindowsSDK_ExecutablePath_x86=C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6.1 Tools\\
+      #$ __DOTNET_ADD_64BIT=1
+      #$ __DOTNET_PREFERRED_BITNESS=64
+      #$ __VSCMD_PREINIT_PATH=F:\\anaconda3\\condabin;F:\\anaconda3\\pkgs\\openssl-1.1.1q-h2bbff1b_0\\Library\\bin;F:\\anaconda3\\Scripts;F:\\anaconda3\\Library\\bin;F:\\anaconda3;E:\\cuda-other\\bin;E:\\cuda-other\\libnvvp;C:\\Program Files\\PlasticSCM5\\server;C:\\Program Files\\PlasticSCM5\\client;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;F:\\jdk8\\bin;F:\\git\\Git\\bin;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;F:\\nodejs\\;F:\\cmake-3.4.3-win32-x86\\bin;D:\\boots\\boost_1_81_0;D:\\boots\\boost_1_81_0\\stage\\lib;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2022.2.1\\;E:\\cuda-other;E:\\cuda-other\\lib\\x64;E:\\cuda-other\\bin\\zlibwapi.dll;E:\\ffmpeg\\bin;F:\\mingw8\\mingw64\\bin;D:\\寰俊寮?鍙戣?呭伐鍏穃寰俊web寮?鍙戣?呭伐鍏穃dll;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;E:\\寰俊寮?鍙戣?呭伐鍏穃寰俊web寮?鍙戣?呭伐鍏穃dll;C:\\Program Files\\Cloudflare\\Cloudflare WARP\\;C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;F:\\arm-gcc\\10 2021.10\\bin;F:\\ARM\\bin;C:\\Users\\86156\\AppData\\Local\\Microsoft\\WindowsApps;F:\\vscode\\Microsoft VS Code\\bin;C:\\Users\\86156\\AppData\\Roaming\\npm;E:\\pycharm\\PyCharm 2022.2.1\\bin;
+      #$ __VSCMD_PREINIT_VCToolsVersion=14.16.27023
+      #$ __VSCMD_PREINIT_VS150COMNTOOLS=F:\\vs-enterprise\\Common7\\Tools\\
+      #$ PATH=F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64;F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64;F:\\vs-enterprise\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\3.1;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;F:\\vs-enterprise\\MSBuild\\15.0\\bin\\Roslyn;F:\\vs-enterprise\\Team Tools\\Performance Tools\\x64;F:\\vs-enterprise\\Team Tools\\Performance Tools;D:\\vs-compo\\Common\\VSPerfCollectionTools\\\\x64;D:\\vs-compo\\Common\\VSPerfCollectionTools\\;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6.1 Tools\\x64\\;D:\\Windows Kits\\10\\bin\\10.0.17763.0\\x64;D:\\Windows Kits\\10\\bin\\x64;F:\\vs-enterprise\\\\MSBuild\\15.0\\bin;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;F:\\vs-enterprise\\Common7\\IDE\\;F:\\vs-enterprise\\Common7\\Tools\\;F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64;F:\\vs-enterprise\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\3.1;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;F:\\vs-enterprise\\MSBuild\\15.0\\bin\\Roslyn;F:\\vs-enterprise\\Team Tools\\Performance Tools\\x64;F:\\vs-enterprise\\Team Tools\\Performance Tools;D:\\vs-compo\\Common\\VSPerfCollectionTools\\\\x64;D:\\vs-compo\\Common\\VSPerfCollectionTools\\;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6.1 Tools\\x64\\;D:\\Windows Kits\\10\\bin\\10.0.17763.0\\x64;D:\\Windows Kits\\10\\bin\\x64;F:\\vs-enterprise\\\\MSBuild\\15.0\\bin;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;F:\\vs-enterprise\\Common7\\IDE\\;F:\\vs-enterprise\\Common7\\Tools\\;F:\\anaconda3\\condabin;F:\\anaconda3\\pkgs\\openssl-1.1.1q-h2bbff1b_0\\Library\\bin;F:\\anaconda3\\Scripts;F:\\anaconda3\\Library\\bin;F:\\anaconda3;E:\\cuda-other\\bin;E:\\cuda-other\\libnvvp;C:\\Program Files\\PlasticSCM5\\server;C:\\Program Files\\PlasticSCM5\\client;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;F:\\jdk8\\bin;F:\\git\\Git\\bin;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;F:\\nodejs\\;F:\\cmake-3.4.3-win32-x86\\bin;D:\\boots\\boost_1_81_0;D:\\boots\\boost_1_81_0\\stage\\lib;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2022.2.1\\;E:\\cuda-other;E:\\cuda-other\\lib\\x64;E:\\cuda-other\\bin\\zlibwapi.dll;E:\\ffmpeg\\bin;F:\\mingw8\\mingw64\\bin;D:\\寰俊寮?鍙戣?呭伐鍏穃寰俊web寮?鍙戣?呭伐鍏穃dll;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;E:\\寰俊寮?鍙戣?呭伐鍏穃寰俊web寮?鍙戣?呭伐鍏穃dll;C:\\Program Files\\Cloudflare\\Cloudflare WARP\\;C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;F:\\arm-gcc\\10 2021.10\\bin;F:\\ARM\\bin;C:\\Users\\86156\\AppData\\Local\\Microsoft\\WindowsApps;F:\\vscode\\Microsoft VS Code\\bin;C:\\Users\\86156\\AppData\\Roaming\\npm;E:\\pycharm\\PyCharm 2022.2.1\\bin;;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja;D:\\微信开发者工具\\微信web开发者工具\\dll;E:\\微信开发者工具\\微信web开发者工具\\dll;F:\\clion\\CLion 2024.1\\bin\\ninja\\win\\x64;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja
+      #$ _NVVM_BRANCH_=nvvm
+      #$ _SPACE_= 
+      #$ _CUDART_=cudart
+      #$ _HERE_=E:/cuda-other/bin
+      #$ _THERE_=E:/cuda-other/bin
+      #$ _TARGET_SIZE_=
+      #$ _TARGET_DIR_=
+      #$ _TARGET_SIZE_=64
+      #$ _WIN_PLATFORM_=x64
+      #$ TOP=E:/cuda-other/bin/..
+      #$ NVVMIR_LIBRARY_DIR=E:/cuda-other/bin/../nvvm/libdevice
+      #$ PATH=E:/cuda-other/bin/../nvvm/bin;E:/cuda-other/bin;E:/cuda-other/bin/../lib;F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64;F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64;F:\\vs-enterprise\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\3.1;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;F:\\vs-enterprise\\MSBuild\\15.0\\bin\\Roslyn;F:\\vs-enterprise\\Team Tools\\Performance Tools\\x64;F:\\vs-enterprise\\Team Tools\\Performance Tools;D:\\vs-compo\\Common\\VSPerfCollectionTools\\\\x64;D:\\vs-compo\\Common\\VSPerfCollectionTools\\;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6.1 Tools\\x64\\;D:\\Windows Kits\\10\\bin\\10.0.17763.0\\x64;D:\\Windows Kits\\10\\bin\\x64;F:\\vs-enterprise\\\\MSBuild\\15.0\\bin;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;F:\\vs-enterprise\\Common7\\IDE\\;F:\\vs-enterprise\\Common7\\Tools\\;F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64;F:\\vs-enterprise\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\3.1;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;F:\\vs-enterprise\\MSBuild\\15.0\\bin\\Roslyn;F:\\vs-enterprise\\Team Tools\\Performance Tools\\x64;F:\\vs-enterprise\\Team Tools\\Performance Tools;D:\\vs-compo\\Common\\VSPerfCollectionTools\\\\x64;D:\\vs-compo\\Common\\VSPerfCollectionTools\\;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6.1 Tools\\x64\\;D:\\Windows Kits\\10\\bin\\10.0.17763.0\\x64;D:\\Windows Kits\\10\\bin\\x64;F:\\vs-enterprise\\\\MSBuild\\15.0\\bin;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;F:\\vs-enterprise\\Common7\\IDE\\;F:\\vs-enterprise\\Common7\\Tools\\;F:\\anaconda3\\condabin;F:\\anaconda3\\pkgs\\openssl-1.1.1q-h2bbff1b_0\\Library\\bin;F:\\anaconda3\\Scripts;F:\\anaconda3\\Library\\bin;F:\\anaconda3;E:\\cuda-other\\bin;E:\\cuda-other\\libnvvp;C:\\Program Files\\PlasticSCM5\\server;C:\\Program Files\\PlasticSCM5\\client;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;F:\\jdk8\\bin;F:\\git\\Git\\bin;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;F:\\nodejs\\;F:\\cmake-3.4.3-win32-x86\\bin;D:\\boots\\boost_1_81_0;D:\\boots\\boost_1_81_0\\stage\\lib;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2022.2.1\\;E:\\cuda-other;E:\\cuda-other\\lib\\x64;E:\\cuda-other\\bin\\zlibwapi.dll;E:\\ffmpeg\\bin;F:\\mingw8\\mingw64\\bin;D:\\寰俊寮?鍙戣?呭伐鍏穃寰俊web寮?鍙戣?呭伐鍏穃dll;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;E:\\寰俊寮?鍙戣?呭伐鍏穃寰俊web寮?鍙戣?呭伐鍏穃dll;C:\\Program Files\\Cloudflare\\Cloudflare WARP\\;C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;F:\\arm-gcc\\10 2021.10\\bin;F:\\ARM\\bin;C:\\Users\\86156\\AppData\\Local\\Microsoft\\WindowsApps;F:\\vscode\\Microsoft VS Code\\bin;C:\\Users\\86156\\AppData\\Roaming\\npm;E:\\pycharm\\PyCharm 2022.2.1\\bin;;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja;D:\\微信开发者工具\\微信web开发者工具\\dll;E:\\微信开发者工具\\微信web开发者工具\\dll;F:\\clion\\CLion 2024.1\\bin\\ninja\\win\\x64;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja
+      #$ INCLUDES="-IE:/cuda-other/bin/../include"  
+      #$ LIBRARIES=  "/LIBPATH:E:/cuda-other/bin/../lib/x64"
+      #$ CUDAFE_FLAGS=
+      #$ PTXAS_FLAGS=
+      #$ erase tmp/a_dlink.reg.c
+      CMakeCUDACompilerId.cu
+      #$ cl.exe @"tmp/CMakeCUDACompilerId.cpp1.ii.res" > "tmp/CMakeCUDACompilerId.cpp1.ii" 
+      CMakeCUDACompilerId.cu
+      #$ cicc --microsoft_version=1916 --msvc_target_version=1916 --compiler_bindir "F:/vs-enterprise/VC/Tools/MSVC/14.16.27023/bin/HostX64/x64/../../../../../../.." --sdk_dir "D:/Windows Kits/10/" --display_error_number --orig_src_file_name "CMakeCUDACompilerId.cu" --orig_src_path_name "F:\\clion_project\\cuda-01\\cmake-build-debug\\CMakeFiles\\3.28.1\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed  -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "CMakeCUDACompilerId.fatbin.c" -tused --gen_module_id_file --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.c" --stub_file_name "tmp/CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "tmp/CMakeCUDACompilerId.cudafe1.gpu"  "tmp/CMakeCUDACompilerId.cpp1.ii" -o "tmp/CMakeCUDACompilerId.ptx"
+      #$ ptxas -arch=sm_52 -m64 "tmp/CMakeCUDACompilerId.ptx"  -o "tmp/CMakeCUDACompilerId.sm_52.cubin" 
+      #$ fatbinary --create="tmp/CMakeCUDACompilerId.fatbin" -64 --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " "--image3=kind=elf,sm=52,file=tmp/CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=tmp/CMakeCUDACompilerId.ptx" --embedded-fatbin="tmp/CMakeCUDACompilerId.fatbin.c" 
+      #$ cl.exe @"tmp/CMakeCUDACompilerId.cpp4.ii.res" > "tmp/CMakeCUDACompilerId.cpp4.ii" 
+      CMakeCUDACompilerId.cu
+      #$ cudafe++ --microsoft_version=1916 --msvc_target_version=1916 --compiler_bindir "F:/vs-enterprise/VC/Tools/MSVC/14.16.27023/bin/HostX64/x64/../../../../../../.." --sdk_dir "D:/Windows Kits/10/" --display_error_number --orig_src_file_name "CMakeCUDACompilerId.cu" --orig_src_path_name "F:\\clion_project\\cuda-01\\cmake-build-debug\\CMakeFiles\\3.28.1\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --m64 --parse_templates --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" "tmp/CMakeCUDACompilerId.cpp4.ii" 
+      #$ cl.exe @"tmp/CMakeCUDACompilerId.obj.res" -Fo"tmp/CMakeCUDACompilerId.obj" 
+      CMakeCUDACompilerId.cudafe1.cpp
+      #$ nvlink -optf "tmp/a_dlink.sm_52.cubin.optf"
+      #$ fatbinary --create="tmp/a_dlink.fatbin" -64 --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -link "--image3=kind=elf,sm=52,file=tmp/a_dlink.sm_52.cubin" --embedded-fatbin="tmp/a_dlink.fatbin.c" 
+      #$ cl.exe @"tmp/a_dlink.obj.res" -Fo"tmp/a_dlink.obj" 
+      link.stub
+      #$ cl.exe @"tmp/a.exe.res" -Fe"a.exe" 
+        正在创建库 a.lib 和对象 a.exp
+      
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "a.exe"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "a.exp"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "a.lib"
+      
+      The CUDA compiler identification is NVIDIA, found in:
+        F:/clion_project/cuda-01/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCUDA/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/clion/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "F:/clion/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "F:/clion/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCUDACompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CUDA compiler /showIncludes prefix:
+        nvcc fatal   : Don't know what to do with 'F:/c'
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/clion/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "F:/clion/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "F:/clion/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCUDACompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CUDA compiler /showIncludes prefix:
+        nvcc fatal   : Don't know what to do with 'F:/c'
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/clion/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CMakeNVCCParseImplicitInfo.cmake:128 (message)"
+      - "F:/clion/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCUDACompiler.cmake:246 (cmake_nvcc_parse_implicit_info)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CUDA nvcc implicit link information:
+        found 'PATH=' string: [F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64;F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64;F:\\vs-enterprise\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\3.1;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;F:\\vs-enterprise\\MSBuild\\15.0\\bin\\Roslyn;F:\\vs-enterprise\\Team Tools\\Performance Tools\\x64;F:\\vs-enterprise\\Team Tools\\Performance Tools;D:\\vs-compo\\Common\\VSPerfCollectionTools\\\\x64;D:\\vs-compo\\Common\\VSPerfCollectionTools\\;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6.1 Tools\\x64\\;D:\\Windows Kits\\10\\bin\\10.0.17763.0\\x64;D:\\Windows Kits\\10\\bin\\x64;F:\\vs-enterprise\\\\MSBuild\\15.0\\bin;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;F:\\vs-enterprise\\Common7\\IDE\\;F:\\vs-enterprise\\Common7\\Tools\\;F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64;F:\\vs-enterprise\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\3.1;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;F:\\vs-enterprise\\MSBuild\\15.0\\bin\\Roslyn;F:\\vs-enterprise\\Team Tools\\Performance Tools\\x64;F:\\vs-enterprise\\Team Tools\\Performance Tools;D:\\vs-compo\\Common\\VSPerfCollectionTools\\\\x64;D:\\vs-compo\\Common\\VSPerfCollectionTools\\;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6.1 Tools\\x64\\;D:\\Windows Kits\\10\\bin\\10.0.17763.0\\x64;D:\\Windows Kits\\10\\bin\\x64;F:\\vs-enterprise\\\\MSBuild\\15.0\\bin;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;F:\\vs-enterprise\\Common7\\IDE\\;F:\\vs-enterprise\\Common7\\Tools\\;F:\\anaconda3\\condabin;F:\\anaconda3\\pkgs\\openssl-1.1.1q-h2bbff1b_0\\Library\\bin;F:\\anaconda3\\Scripts;F:\\anaconda3\\Library\\bin;F:\\anaconda3;E:\\cuda-other\\bin;E:\\cuda-other\\libnvvp;C:\\Program Files\\PlasticSCM5\\server;C:\\Program Files\\PlasticSCM5\\client;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;F:\\jdk8\\bin;F:\\git\\Git\\bin;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;F:\\nodejs\\;F:\\cmake-3.4.3-win32-x86\\bin;D:\\boots\\boost_1_81_0;D:\\boots\\boost_1_81_0\\stage\\lib;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2022.2.1\\;E:\\cuda-other;E:\\cuda-other\\lib\\x64;E:\\cuda-other\\bin\\zlibwapi.dll;E:\\ffmpeg\\bin;F:\\mingw8\\mingw64\\bin;D:\\寰俊寮?鍙戣?呭伐鍏穃寰俊web寮?鍙戣?呭伐鍏穃dll;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;E:\\寰俊寮?鍙戣?呭伐鍏穃寰俊web寮?鍙戣?呭伐鍏穃dll;C:\\Program Files\\Cloudflare\\Cloudflare WARP\\;C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;F:\\arm-gcc\\10 2021.10\\bin;F:\\ARM\\bin;C:\\Users\\86156\\AppData\\Local\\Microsoft\\WindowsApps;F:\\vscode\\Microsoft VS Code\\bin;C:\\Users\\86156\\AppData\\Roaming\\npm;E:\\pycharm\\PyCharm 2022.2.1\\bin;;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja;D:\\微信开发者工具\\微信web开发者工具\\dll;E:\\微信开发者工具\\微信web开发者工具\\dll;F:\\clion\\CLion 2024.1\\bin\\ninja\\win\\x64;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja]
+        found 'LIBRARIES=' string: ["/LIBPATH:E:/cuda-other/bin/../lib/x64"]
+        found 'INCLUDES=' string: ["-IE:/cuda-other/bin/../include"  ]
+        considering line: []
+        considering line: [F:\\clion_project\\cuda-01\\cmake-build-debug\\CMakeFiles\\3.28.1\\CompilerIdCUDA>call "F:/vs-enterprise/VC/Tools/MSVC/14.16.27023/bin/HostX64/x64/../../../../../../../VC/Auxiliary/Build/vcvars64.bat" ]
+        considering line: [**********************************************************************]
+        considering line: [** Visual Studio 2017 Developer Command Prompt v15.9.55]
+        considering line: [** Copyright (c) 2017 Microsoft Corporation]
+        considering line: [**********************************************************************]
+        considering line: [[vcvarsall.bat] Environment initialized for: 'x64']
+        considering line: [F:/vs-enterprise/VC/Tools/MSVC/14.16.27023/bin/HostX64/x64/../../../../../../../VC/Auxiliary/Build/vcvars64.bat]
+        considering line: [erase tmp/a_dlink.reg.c]
+        considering line: [CMakeCUDACompilerId.cu]
+        considering line: [cl.exe @"tmp/CMakeCUDACompilerId.cpp1.ii.res" > "tmp/CMakeCUDACompilerId.cpp1.ii" ]
+        considering line: [CMakeCUDACompilerId.cu]
+        considering line: [cicc --microsoft_version=1916 --msvc_target_version=1916 --compiler_bindir "F:/vs-enterprise/VC/Tools/MSVC/14.16.27023/bin/HostX64/x64/../../../../../../.." --sdk_dir "D:/Windows Kits/10/" --display_error_number --orig_src_file_name "CMakeCUDACompilerId.cu" --orig_src_path_name "F:\\clion_project\\cuda-01\\cmake-build-debug\\CMakeFiles\\3.28.1\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed  -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "CMakeCUDACompilerId.fatbin.c" -tused --gen_module_id_file --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.c" --stub_file_name "tmp/CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "tmp/CMakeCUDACompilerId.cudafe1.gpu"  "tmp/CMakeCUDACompilerId.cpp1.ii" -o "tmp/CMakeCUDACompilerId.ptx"]
+        considering line: [ptxas -arch=sm_52 -m64 "tmp/CMakeCUDACompilerId.ptx"  -o "tmp/CMakeCUDACompilerId.sm_52.cubin" ]
+        considering line: [fatbinary --create="tmp/CMakeCUDACompilerId.fatbin" -64 --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " "--image3=kind=elf,sm=52,file=tmp/CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=tmp/CMakeCUDACompilerId.ptx" --embedded-fatbin="tmp/CMakeCUDACompilerId.fatbin.c" ]
+        considering line: [cl.exe @"tmp/CMakeCUDACompilerId.cpp4.ii.res" > "tmp/CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [CMakeCUDACompilerId.cu]
+        considering line: [cudafe++ --microsoft_version=1916 --msvc_target_version=1916 --compiler_bindir "F:/vs-enterprise/VC/Tools/MSVC/14.16.27023/bin/HostX64/x64/../../../../../../.." --sdk_dir "D:/Windows Kits/10/" --display_error_number --orig_src_file_name "CMakeCUDACompilerId.cu" --orig_src_path_name "F:\\clion_project\\cuda-01\\cmake-build-debug\\CMakeFiles\\3.28.1\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --m64 --parse_templates --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" "tmp/CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [cl.exe @"tmp/CMakeCUDACompilerId.obj.res" -Fo"tmp/CMakeCUDACompilerId.obj" ]
+        considering line: [CMakeCUDACompilerId.cudafe1.cpp]
+        considering line: [nvlink -optf "tmp/a_dlink.sm_52.cubin.optf"]
+          ignoring nvlink line
+        considering line: [fatbinary --create="tmp/a_dlink.fatbin" -64 --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -link "--image3=kind=elf,sm=52,file=tmp/a_dlink.sm_52.cubin" --embedded-fatbin="tmp/a_dlink.fatbin.c" ]
+        considering line: [cl.exe @"tmp/a_dlink.obj.res" -Fo"tmp/a_dlink.obj" ]
+        considering line: [link.stub]
+        considering line: [cl.exe @"tmp/a.exe.res" -Fe"a.exe" ]
+          extracted link line: [cl.exe -D__CUDA_ARCH_LIST__=520 -nologo "F:\\clion_project\\cuda-01\\cmake-build-debug\\CMakeFiles\\3.28.1\\CompilerIdCUDA\\tmp\\a_dlink.obj" "F:\\clion_project\\cuda-01\\cmake-build-debug\\CMakeFiles\\3.28.1\\CompilerIdCUDA\\tmp\\CMakeCUDACompilerId.obj" -link -INCREMENTAL:NO   "/LIBPATH:E:/cuda-other/bin/../lib/x64"  cudadevrt.lib  cudart_static.lib -Fe"a.exe" ]
+        considering line: [  正在创建库 a.lib 和对象 a.exp]
+        considering line: []
+      
+        link line regex: [^( *|.*[/\\])(link\\.exe|link\\.exe|lld-link|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        link line: [cuda-fake-ld cl.exe -D__CUDA_ARCH_LIST__=520 -nologo "F:\\clion_project\\cuda-01\\cmake-build-debug\\CMakeFiles\\3.28.1\\CompilerIdCUDA\\tmp\\a_dlink.obj" "F:\\clion_project\\cuda-01\\cmake-build-debug\\CMakeFiles\\3.28.1\\CompilerIdCUDA\\tmp\\CMakeCUDACompilerId.obj" -link -INCREMENTAL:NO   "/LIBPATH:E:/cuda-other/bin/../lib/x64"  cudadevrt.lib  cudart_static.lib -Fe"a.exe" ]
+          arg [cuda-fake-ld] ==> ignore
+          arg [cl.exe] ==> recognize MSVC cl
+          arg [-D__CUDA_ARCH_LIST__=520] ==> ignore
+          arg [-nologo] ==> ignore
+          arg [F:\\clion_project\\cuda-01\\cmake-build-debug\\CMakeFiles\\3.28.1\\CompilerIdCUDA\\tmp\\a_dlink.obj] ==> ignore
+          arg [F:\\clion_project\\cuda-01\\cmake-build-debug\\CMakeFiles\\3.28.1\\CompilerIdCUDA\\tmp\\CMakeCUDACompilerId.obj] ==> ignore
+          arg [-link] ==> ignore MSVC cl option
+          arg [-INCREMENTAL:NO] ==> ignore
+          arg [/LIBPATH:E:/cuda-other/bin/../lib/x64] ==> dir [E:/cuda-other/bin/../lib/x64]
+          arg [cudadevrt.lib] ==> lib [cudadevrt.lib]
+          arg [cudart_static.lib] ==> lib [cudart_static.lib]
+          arg [-Fea.exe] ==> ignore
+        collapse library dir [E:/cuda-other/bin/../lib/x64] ==> [E:/cuda-other/lib/x64]
+        implicit libs: [cudadevrt.lib;cudart_static.lib]
+        implicit objs: []
+        implicit dirs: [E:/cuda-other/lib/x64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/clion/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CMakeNVCCParseImplicitInfo.cmake:146 (message)"
+      - "F:/clion/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCUDACompiler.cmake:246 (cmake_nvcc_parse_implicit_info)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CUDA nvcc include information:
+        found 'PATH=' string: [F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64;F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64;F:\\vs-enterprise\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\3.1;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;F:\\vs-enterprise\\MSBuild\\15.0\\bin\\Roslyn;F:\\vs-enterprise\\Team Tools\\Performance Tools\\x64;F:\\vs-enterprise\\Team Tools\\Performance Tools;D:\\vs-compo\\Common\\VSPerfCollectionTools\\\\x64;D:\\vs-compo\\Common\\VSPerfCollectionTools\\;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6.1 Tools\\x64\\;D:\\Windows Kits\\10\\bin\\10.0.17763.0\\x64;D:\\Windows Kits\\10\\bin\\x64;F:\\vs-enterprise\\\\MSBuild\\15.0\\bin;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;F:\\vs-enterprise\\Common7\\IDE\\;F:\\vs-enterprise\\Common7\\Tools\\;F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX64\\x64;F:\\vs-enterprise\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files (x86)\\Microsoft SDKs\\TypeScript\\3.1;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;F:\\vs-enterprise\\MSBuild\\15.0\\bin\\Roslyn;F:\\vs-enterprise\\Team Tools\\Performance Tools\\x64;F:\\vs-enterprise\\Team Tools\\Performance Tools;D:\\vs-compo\\Common\\VSPerfCollectionTools\\\\x64;D:\\vs-compo\\Common\\VSPerfCollectionTools\\;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6.1 Tools\\x64\\;D:\\Windows Kits\\10\\bin\\10.0.17763.0\\x64;D:\\Windows Kits\\10\\bin\\x64;F:\\vs-enterprise\\\\MSBuild\\15.0\\bin;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;F:\\vs-enterprise\\Common7\\IDE\\;F:\\vs-enterprise\\Common7\\Tools\\;F:\\anaconda3\\condabin;F:\\anaconda3\\pkgs\\openssl-1.1.1q-h2bbff1b_0\\Library\\bin;F:\\anaconda3\\Scripts;F:\\anaconda3\\Library\\bin;F:\\anaconda3;E:\\cuda-other\\bin;E:\\cuda-other\\libnvvp;C:\\Program Files\\PlasticSCM5\\server;C:\\Program Files\\PlasticSCM5\\client;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;F:\\jdk8\\bin;F:\\git\\Git\\bin;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;F:\\nodejs\\;F:\\cmake-3.4.3-win32-x86\\bin;D:\\boots\\boost_1_81_0;D:\\boots\\boost_1_81_0\\stage\\lib;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2022.2.1\\;E:\\cuda-other;E:\\cuda-other\\lib\\x64;E:\\cuda-other\\bin\\zlibwapi.dll;E:\\ffmpeg\\bin;F:\\mingw8\\mingw64\\bin;D:\\寰俊寮?鍙戣?呭伐鍏穃寰俊web寮?鍙戣?呭伐鍏穃dll;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;E:\\寰俊寮?鍙戣?呭伐鍏穃寰俊web寮?鍙戣?呭伐鍏穃dll;C:\\Program Files\\Cloudflare\\Cloudflare WARP\\;C:\\Program Files (x86)\\STMicroelectronics\\STM32 ST-LINK Utility\\ST-LINK Utility;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;F:\\arm-gcc\\10 2021.10\\bin;F:\\ARM\\bin;C:\\Users\\86156\\AppData\\Local\\Microsoft\\WindowsApps;F:\\vscode\\Microsoft VS Code\\bin;C:\\Users\\86156\\AppData\\Roaming\\npm;E:\\pycharm\\PyCharm 2022.2.1\\bin;;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja;D:\\微信开发者工具\\微信web开发者工具\\dll;E:\\微信开发者工具\\微信web开发者工具\\dll;F:\\clion\\CLion 2024.1\\bin\\ninja\\win\\x64;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin;F:\\vs-enterprise\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja]
+        found 'LIBRARIES=' string: ["/LIBPATH:E:/cuda-other/bin/../lib/x64"]
+        found 'INCLUDES=' string: ["-IE:/cuda-other/bin/../include"  ]
+        considering line: []
+        considering line: [F:\\clion_project\\cuda-01\\cmake-build-debug\\CMakeFiles\\3.28.1\\CompilerIdCUDA>call "F:/vs-enterprise/VC/Tools/MSVC/14.16.27023/bin/HostX64/x64/../../../../../../../VC/Auxiliary/Build/vcvars64.bat" ]
+        considering line: [**********************************************************************]
+        considering line: [** Visual Studio 2017 Developer Command Prompt v15.9.55]
+        considering line: [** Copyright (c) 2017 Microsoft Corporation]
+        considering line: [**********************************************************************]
+        considering line: [[vcvarsall.bat] Environment initialized for: 'x64']
+        considering line: [F:/vs-enterprise/VC/Tools/MSVC/14.16.27023/bin/HostX64/x64/../../../../../../../VC/Auxiliary/Build/vcvars64.bat]
+        considering line: [erase tmp/a_dlink.reg.c]
+        considering line: [CMakeCUDACompilerId.cu]
+        considering line: [cl.exe @"tmp/CMakeCUDACompilerId.cpp1.ii.res" > "tmp/CMakeCUDACompilerId.cpp1.ii" ]
+        considering line: [CMakeCUDACompilerId.cu]
+        considering line: [cicc --microsoft_version=1916 --msvc_target_version=1916 --compiler_bindir "F:/vs-enterprise/VC/Tools/MSVC/14.16.27023/bin/HostX64/x64/../../../../../../.." --sdk_dir "D:/Windows Kits/10/" --display_error_number --orig_src_file_name "CMakeCUDACompilerId.cu" --orig_src_path_name "F:\\clion_project\\cuda-01\\cmake-build-debug\\CMakeFiles\\3.28.1\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed  -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "CMakeCUDACompilerId.fatbin.c" -tused --gen_module_id_file --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.c" --stub_file_name "tmp/CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "tmp/CMakeCUDACompilerId.cudafe1.gpu"  "tmp/CMakeCUDACompilerId.cpp1.ii" -o "tmp/CMakeCUDACompilerId.ptx"]
+        considering line: [ptxas -arch=sm_52 -m64 "tmp/CMakeCUDACompilerId.ptx"  -o "tmp/CMakeCUDACompilerId.sm_52.cubin" ]
+        considering line: [fatbinary --create="tmp/CMakeCUDACompilerId.fatbin" -64 --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " "--image3=kind=elf,sm=52,file=tmp/CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=tmp/CMakeCUDACompilerId.ptx" --embedded-fatbin="tmp/CMakeCUDACompilerId.fatbin.c" ]
+        considering line: [cl.exe @"tmp/CMakeCUDACompilerId.cpp4.ii.res" > "tmp/CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [CMakeCUDACompilerId.cu]
+        considering line: [cudafe++ --microsoft_version=1916 --msvc_target_version=1916 --compiler_bindir "F:/vs-enterprise/VC/Tools/MSVC/14.16.27023/bin/HostX64/x64/../../../../../../.." --sdk_dir "D:/Windows Kits/10/" --display_error_number --orig_src_file_name "CMakeCUDACompilerId.cu" --orig_src_path_name "F:\\clion_project\\cuda-01\\cmake-build-debug\\CMakeFiles\\3.28.1\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --m64 --parse_templates --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" "tmp/CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [cl.exe @"tmp/CMakeCUDACompilerId.obj.res" -Fo"tmp/CMakeCUDACompilerId.obj" ]
+        considering line: [CMakeCUDACompilerId.cudafe1.cpp]
+        considering line: [nvlink -optf "tmp/a_dlink.sm_52.cubin.optf"]
+          ignoring nvlink line
+        considering line: [fatbinary --create="tmp/a_dlink.fatbin" -64 --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -link "--image3=kind=elf,sm=52,file=tmp/a_dlink.sm_52.cubin" --embedded-fatbin="tmp/a_dlink.fatbin.c" ]
+        considering line: [cl.exe @"tmp/a_dlink.obj.res" -Fo"tmp/a_dlink.obj" ]
+        considering line: [link.stub]
+        considering line: [cl.exe @"tmp/a.exe.res" -Fe"a.exe" ]
+          extracted link line: [cl.exe -D__CUDA_ARCH_LIST__=520 -nologo "F:\\clion_project\\cuda-01\\cmake-build-debug\\CMakeFiles\\3.28.1\\CompilerIdCUDA\\tmp\\a_dlink.obj" "F:\\clion_project\\cuda-01\\cmake-build-debug\\CMakeFiles\\3.28.1\\CompilerIdCUDA\\tmp\\CMakeCUDACompilerId.obj" -link -INCREMENTAL:NO   "/LIBPATH:E:/cuda-other/bin/../lib/x64"  cudadevrt.lib  cudart_static.lib -Fe"a.exe" ]
+        considering line: [  正在创建库 a.lib 和对象 a.exp]
+        considering line: []
+      
+        link line regex: [^( *|.*[/\\])(link\\.exe|link\\.exe|lld-link|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        link line: [cuda-fake-ld cl.exe -D__CUDA_ARCH_LIST__=520 -nologo "F:\\clion_project\\cuda-01\\cmake-build-debug\\CMakeFiles\\3.28.1\\CompilerIdCUDA\\tmp\\a_dlink.obj" "F:\\clion_project\\cuda-01\\cmake-build-debug\\CMakeFiles\\3.28.1\\CompilerIdCUDA\\tmp\\CMakeCUDACompilerId.obj" -link -INCREMENTAL:NO   "/LIBPATH:E:/cuda-other/bin/../lib/x64"  cudadevrt.lib  cudart_static.lib -Fe"a.exe" ]
+          arg [cuda-fake-ld] ==> ignore
+          arg [cl.exe] ==> recognize MSVC cl
+          arg [-D__CUDA_ARCH_LIST__=520] ==> ignore
+          arg [-nologo] ==> ignore
+          arg [F:\\clion_project\\cuda-01\\cmake-build-debug\\CMakeFiles\\3.28.1\\CompilerIdCUDA\\tmp\\a_dlink.obj] ==> ignore
+          arg [F:\\clion_project\\cuda-01\\cmake-build-debug\\CMakeFiles\\3.28.1\\CompilerIdCUDA\\tmp\\CMakeCUDACompilerId.obj] ==> ignore
+          arg [-link] ==> ignore MSVC cl option
+          arg [-INCREMENTAL:NO] ==> ignore
+          arg [/LIBPATH:E:/cuda-other/bin/../lib/x64] ==> dir [E:/cuda-other/bin/../lib/x64]
+          arg [cudadevrt.lib] ==> lib [cudadevrt.lib]
+          arg [cudart_static.lib] ==> lib [cudart_static.lib]
+          arg [-Fea.exe] ==> ignore
+        collapse library dir [E:/cuda-other/bin/../lib/x64] ==> [E:/cuda-other/lib/x64]
+        implicit libs: [cudadevrt.lib;cudart_static.lib]
+        implicit objs: []
+        implicit dirs: [E:/cuda-other/lib/x64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/clion/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "F:/clion/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CUDA compiler ABI info"
+    directories:
+      source: "F:/clion_project/cuda-01/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e77t2h"
+      binary: "F:/clion_project/cuda-01/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e77t2h"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_FLAGS: "-D_WINDOWS -Xcompiler=\" /EHsc\""
+      CMAKE_CUDA_FLAGS_DEBUG: "-Xcompiler=\" -Ob0 -Od /RTC1\""
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Static"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CUDA_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/clion_project/cuda-01/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e77t2h'
+        
+        Run Build Command(s): "F:/clion/CLion 2024.1/bin/ninja/win/x64/ninja.exe" -v cmTC_e237c
+        [1/2] E:\\cuda-other\\bin\\nvcc.exe -forward-unknown-to-host-compiler   -D_WINDOWS -Xcompiler=" /EHsc"  -Xcompiler=" -Ob0 -Od /RTC1" "--generate-code=arch=compute_52,code=[compute_52,sm_52]" -Xcompiler=-MDd -Xcompiler=-Zi   -Xcompiler=-v -MD -MT CMakeFiles\\cmTC_e237c.dir\\CMakeCUDACompilerABI.cu.obj -MF CMakeFiles\\cmTC_e237c.dir\\CMakeCUDACompilerABI.cu.obj.d -x cu -c "F:\\clion\\CLion 2024.1\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCUDACompilerABI.cu" -o CMakeFiles\\cmTC_e237c.dir\\CMakeCUDACompilerABI.cu.obj -Xcompiler=-FdCMakeFiles\\cmTC_e237c.dir\\,-FS
+        cl: 命令行 warning D9002 :忽略未知选项“-v”\x0d
+        CMakeCUDACompilerABI.cu\x0d
+        cl: 命令行 warning D9002 :忽略未知选项“-v”\x0d
+        CMakeCUDACompilerABI.cu\x0d
+        CMakeCUDACompilerABI.cu\x0d
+        cl: 命令行 warning D9002 :忽略未知选项“-v”\x0d
+        f:\\clion\\clion 2024.1\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\modules\\CMakeCompilerCUDAArch.h(10): warning C4305: “return”: 从“int”到“bool”截断\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "F:\\clion\\CLion 2024.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_e237c.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.17763.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.17763.0\\x64\\mt.exe" --manifests  -- F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e237c.dir\\CMakeCUDACompilerABI.cu.obj  /out:cmTC_e237c.exe /implib:cmTC_e237c.lib /pdb:cmTC_e237c.pdb /version:0.0 -v /debug /INCREMENTAL  cudadevrt.lib  cudart_static.lib -LIBPATH:"E:/cuda-other/lib/x64"  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/clion/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "F:/clion/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CUDA implicit include dir info: rv=start
+        warn: unable to parse implicit include dirs!
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/clion/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "F:/clion/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CUDA implicit link information:
+        link line regex: [^( *|.*[/\\])(link\\.exe|link\\.exe|lld-link|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'F:/clion_project/cuda-01/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e77t2h']
+        ignore line: []
+        ignore line: [Run Build Command(s): "F:/clion/CLion 2024.1/bin/ninja/win/x64/ninja.exe" -v cmTC_e237c]
+        ignore line: [[1/2] E:\\cuda-other\\bin\\nvcc.exe -forward-unknown-to-host-compiler   -D_WINDOWS -Xcompiler=" /EHsc"  -Xcompiler=" -Ob0 -Od /RTC1" "--generate-code=arch=compute_52 code=[compute_52 sm_52]" -Xcompiler=-MDd -Xcompiler=-Zi   -Xcompiler=-v -MD -MT CMakeFiles\\cmTC_e237c.dir\\CMakeCUDACompilerABI.cu.obj -MF CMakeFiles\\cmTC_e237c.dir\\CMakeCUDACompilerABI.cu.obj.d -x cu -c "F:\\clion\\CLion 2024.1\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\Modules\\CMakeCUDACompilerABI.cu" -o CMakeFiles\\cmTC_e237c.dir\\CMakeCUDACompilerABI.cu.obj -Xcompiler=-FdCMakeFiles\\cmTC_e237c.dir\\ -FS]
+        ignore line: [cl: 命令行 warning D9002 :忽略未知选项“-v”\x0d]
+        ignore line: [CMakeCUDACompilerABI.cu\x0d]
+        ignore line: [cl: 命令行 warning D9002 :忽略未知选项“-v”\x0d]
+        ignore line: [CMakeCUDACompilerABI.cu\x0d]
+        ignore line: [CMakeCUDACompilerABI.cu\x0d]
+        ignore line: [cl: 命令行 warning D9002 :忽略未知选项“-v”\x0d]
+        ignore line: [f:\\clion\\clion 2024.1\\bin\\cmake\\win\\x64\\share\\cmake-3.28\\modules\\CMakeCompilerCUDAArch.h(10): warning C4305: “return”: 从“int”到“bool”截断\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "F:\\clion\\CLion 2024.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_e237c.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.17763.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.17763.0\\x64\\mt.exe" --manifests  -- F:\\vs-enterprise\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e237c.dir\\CMakeCUDACompilerABI.cu.obj  /out:cmTC_e237c.exe /implib:cmTC_e237c.lib /pdb:cmTC_e237c.pdb /version:0.0 -v /debug /INCREMENTAL  cudadevrt.lib  cudart_static.lib -LIBPATH:"E:/cuda-other/lib/x64"  && cd ."]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+...

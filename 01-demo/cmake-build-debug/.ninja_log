@@ -1,0 +1,8 @@
+# ninja log v5
+2	77	7362010129287525	CMakeFiles/01_demo.dir/main.c.obj	d37e9355d8976101
+0	226	7363509066404226	build.ninja	ca453d877c526d66
+2	75	7361998868318969	CMakeFiles/01_demo.dir/hello/test.c.obj	fb918e0345124fd4
+2	76	7362001370527737	CMakeFiles/01_demo.dir/student/score.c.obj	913195b3b42df3ed
+77	176	7362010130244958	01_demo.exe	7081d496b40e0ec9
+42	133	7361974078525331	CMakeFiles/01_demo.dir/code/my_code.c.obj	7126330a6eab9081
+3	75	7361999696733526	CMakeFiles/01_demo.dir/dir2/my_dir.c.obj	176ef8ab93245df9

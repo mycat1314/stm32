@@ -1,0 +1,1 @@
+-D__CUDA_ARCH__=520 -D__CUDA_ARCH_LIST__=520 -nologo -c -TP  -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc "-IE:/cuda-other/bin/../include"   "F:\clion_project\cuda-01\cmake-build-debug\CMakeFiles\3.28.1\CompilerIdCUDA\tmp\CMakeCUDACompilerId.cudafe1.cpp" 

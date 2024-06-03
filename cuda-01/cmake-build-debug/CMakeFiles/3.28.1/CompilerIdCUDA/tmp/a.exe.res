@@ -1,0 +1,1 @@
+-D__CUDA_ARCH_LIST__=520 -nologo "F:\clion_project\cuda-01\cmake-build-debug\CMakeFiles\3.28.1\CompilerIdCUDA\tmp\a_dlink.obj" "F:\clion_project\cuda-01\cmake-build-debug\CMakeFiles\3.28.1\CompilerIdCUDA\tmp\CMakeCUDACompilerId.obj" -link -INCREMENTAL:NO   "/LIBPATH:E:/cuda-other/bin/../lib/x64"  cudadevrt.lib  cudart_static.lib

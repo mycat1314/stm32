@@ -1,0 +1,3 @@
+F:/clion_project/02_usart/cmake-build-debug/CMakeFiles/02_usart.elf.dir
+F:/clion_project/02_usart/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/clion_project/02_usart/cmake-build-debug/CMakeFiles/rebuild_cache.dir
